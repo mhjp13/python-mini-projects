@@ -419,7 +419,6 @@ class Bill_App:
         if op > 0:
             self.root.destroy()
 
-
 root = Tk()
 obj = Bill_App(root)
 root.mainloop()
